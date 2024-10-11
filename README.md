@@ -1,4 +1,4 @@
-#esm-run-demo
+# Demo Apps for esm.sh/run
 
 Demo apps for https://esm.sh/run.
 
