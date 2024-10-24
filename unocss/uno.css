@@ -1,7 +1,7 @@
-@import "reset" eric-meyer;
+@import "reset/eric-meyer";
 @import "preset-uno";
 @import "preset-icons";
-@import "preset-web-fonts" google;
+@import "preset-web-fonts";
 
 :theme {
   --color-primary: #3b82f6;
