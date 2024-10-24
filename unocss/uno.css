@@ -1,0 +1,25 @@
+@import "reset" eric-meyer;
+@import "preset-uno";
+@import "preset-icons";
+@import "preset-web-fonts" google;
+
+:theme {
+  --color-primary: #3b82f6;
+  --font-family-sans: webfont("Inter");
+  --animation-duration-spin: 1s;
+  --animation-timing-spin: ease;
+}
+
+@keyframes spin {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.btn {
+  --uno: py-2 px-4 font-sans rounded-lg shadow-md text-white bg-primary hover:animate-spin border-none;
+}
